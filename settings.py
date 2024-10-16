@@ -46,7 +46,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "cloud_calculation.urls"
+ROOT_URLCONF = "urls"
 
 TEMPLATES = [
     {
