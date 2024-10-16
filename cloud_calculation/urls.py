@@ -21,5 +21,5 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('calculate/', calculate, name='calculate'),
+    path('calculate/', calculate, name=['calculate']),
 ]
