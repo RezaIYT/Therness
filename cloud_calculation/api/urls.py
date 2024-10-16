@@ -5,5 +5,5 @@ print("Hello")
 print(views.calculate)
 
 urlpatterns = [
-    path('calculate/', views.calculate, name='calculate'),  # Register the calculate URL
+    path('calculate/', views.calculate, name=['calculate']),  # Register the calculate URL
 ]
